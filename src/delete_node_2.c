@@ -1,27 +1,27 @@
-#include <stdio.h>
+/*#include <stdio.h>*/
 
-#define IDX 0
+/*#define IDX 0*/
 
-typedef struct _Node {
-    int index;
-    int data;
-    struct _Node * next;
-} Node;
+/*typedef struct _Node {*/
+    /*int index;*/
+    /*int data;*/
+    /*struct _Node * next;*/
+/*} Node;*/
 
-void node_delete(Node ** head_main, int index_main);
+/*void node_delete(Node ** head_main, int index_main);*/
 
-int main(void) {
-    Node * head_main = NULL;
+/*int main(void) {*/
+    /*Node * head_main = NULL;*/
 
-    node_delete(&head_main, IDX);
+    /*node_delete(&head_main, IDX);*/
 
-    return 0;
-}
+    /*return 0;*/
+/*}*/
 
-void node_delete(Node ** head_main, int index_main) {
-    Node * head_local = *head_main;
+/*void node_delete(Node ** head_main, int index_main) {*/
+    /*Node * head_local = *head_main;*/
 
-    while (head_local->index != index_main) {
-        head_local = head_local->next;
-    }
-}
+    /*while (head_local->index != index_main) {*/
+        /*head_local = head_local->next;*/
+    /*}*/
+/*}*/
