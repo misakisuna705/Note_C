@@ -8,9 +8,9 @@ void misakiString(void);
 void misakiList(void);
 
 int main() {
-    misakiString();
-    printf("\n");
-    misakiList();
+    /*misakiString();*/
+    /*printf("\n");*/
+    /*misakiList();*/
 
     return 0;
 }
